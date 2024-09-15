@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: bisque;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 5px;
+    font-size: 25pt;
+    padding: 5px;
+}
+
+h2 {
+    color: black;
+    background-color: rgb(228, 191, 147);
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-size: 18pt;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: medium ;
+    font-weight: 800;
+    font-family: century Gothic;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 70%;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.resume-preview {
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: rgb(115, 175, 201);
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+}
+
+.resume-preview h2 {
+    border: 1px solid black;
+    font-size: 30pt;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.resume-preview h3 {
+    border: 1px solid black;
+    font-size: 15pt;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.resume-preview p {
+    font-size: 12pt;
+    font-weight: 700;
+}
+
+/* set Mobile screen*/
+
+@media (min-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+    #resume-preview {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
